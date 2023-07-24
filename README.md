@@ -50,7 +50,7 @@ We are presenting numerical methods for solving second and fourth-order equation
 $$ds^2 = -h(z)dt^2 + \frac{1}{z^4f(z)}dz^2 + \frac{1}{z^2}(d\theta^2 + \sin^2\theta d\phi^2),\\
 	h(z)=(1-z)U_1(z), f(z)=(1-z)U_2(z)$$
 
-The variables $U_1$, $U_2$, and $\varphi$ are treated as functions of the radial axis $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $f$, $h$, and $\varphi$ as vectors $\boldsymbol{W}$.
+The variables $U_1$, $U_2$, and $\varphi$ are treated as functions of the radial axis $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $U_1$, $U_2$, and $\varphi$ as vectors $\boldsymbol{W}$.
 
 We compute derivatives up to the fourth order using standard methods such as the ``NDSolve`FiniteDifferenceDerivative`` function in Mathematica. This ensures precise calculations necessary for numerical methods. For instance, by applying the following code:
 ```wl
