@@ -39,7 +39,7 @@ In this study, we focus on a higher-derivative gravity theory coupled to a scala
 
 ## Technical Details<a name="technical-details"></a>
 
-We are presenting numerical methods for solving second and fourth-order equations of motion. The variables $ f $, $ h $, and $ φ $ are treated as functions of the variable $ z $. To discretize the axis $ z $, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $ f $, $ h $, and $ φ $ as vectors $ \bm W $.
+We are presenting numerical methods for solving second and fourth-order equations of motion. The variables $f$, $h$, and $φ$ are treated as functions of the variable $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $f$, $h$, and $φ$ as vectors $ \bm W $.
 
 We compute derivatives up to the fourth order using standard methods such as the ``NDSolve`FiniteDifferenceDerivative`` function in Mathematica. This ensures precise calculations necessary for numerical methods. For instance, by applying the following code:
 ```wl
@@ -47,11 +47,11 @@ NDSolve`FiniteDifferenceDerivative[Derivative[4], allocation, "DifferenceOrder" 
 ```
 we obtain the differentiation matrix of the fourth-order derivative within the Pseudospectral method.
 
-To obtain expansion coefficients ($ a_i $), we employ the Fast Fourier Transform (FFT) method. These coefficients are then used to reconstruct the function using Chebyshev polynomials $T^i(x)$.
+To obtain expansion coefficients ($a_i$), we employ the Fast Fourier Transform (FFT) method. These coefficients are then used to reconstruct the function using Chebyshev polynomials $T^i(x)$.
 
 $$F = a_i T^i(z)$$
 
-We introduce the residual $ \mathcal R^I(z) $ of the equations of motion as a measure to evaluate the accuracy of the solutions. Given the nonlinearity of the equations, we utilize the Newton-Raphson iteration method, which linearizes the equations and updates them iteratively until convergence is achieved. The success of the iteration process relies on the initial guess for the solution.
+We introduce the residual $\mathcal R^I(z)$ of the equations of motion as a measure to evaluate the accuracy of the solutions. Given the nonlinearity of the equations, we utilize the Newton-Raphson iteration method, which linearizes the equations and updates them iteratively until convergence is achieved. The success of the iteration process relies on the initial guess for the solution.
 
 The Pseudospectral method exhibits remarkable convergence capabilities, allowing it to converge easily even with random initial guesses. To obtain our results, we utilize thousands of random initial guesses, consolidate identical solutions, and finally obtain distinct solutions.
 
