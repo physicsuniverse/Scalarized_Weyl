@@ -39,7 +39,7 @@ In this study, we focus on a higher-derivative gravity theory coupled to a scala
 
 ## Technical Details<a name="technical-details"></a>
 
-We are presenting numerical methods for solving second and fourth-order equations of motion. The variables $f$, $h$, and $φ$ are treated as functions of the variable $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $f$, $h$, and $φ$ as vectors $ \bm W $.
+We are presenting numerical methods for solving second and fourth-order equations of motion. The variables $f$, $h$, and $\varphi$ are treated as functions of the variable $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $f$, $h$, and $\varphi$ as vectors $\bm W$.
 
 We compute derivatives up to the fourth order using standard methods such as the ``NDSolve`FiniteDifferenceDerivative`` function in Mathematica. This ensures precise calculations necessary for numerical methods. For instance, by applying the following code:
 ```wl
