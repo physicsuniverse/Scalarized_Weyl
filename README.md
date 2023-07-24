@@ -39,13 +39,13 @@ In this study, we focus on a higher-derivative gravity theory coupled to a scala
 
 ## Technical Details<a name="technical-details"></a>
 
-We are presenting numerical methods for solving second and fourth-order equations of motion. The variables $f$, $h$, and $\varphi$ are treated as functions of the variable $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $f$, $h$, and $\varphi$ as vectors $\bm W$.
+We are presenting numerical methods for solving second and fourth-order equations of motion. The variables $f$, $h$, and $\varphi$ are treated as functions of the variable $z$. To discretize the axis $z$, we utilize the Gauss-Lobatto quadrature. This discretization allows us to represent $f$, $h$, and $\varphi$ as vectors $\boldsymbol{W}$.
 
 We compute derivatives up to the fourth order using standard methods such as the ``NDSolve`FiniteDifferenceDerivative`` function in Mathematica. This ensures precise calculations necessary for numerical methods. For instance, by applying the following code:
 ```wl
-NDSolve`FiniteDifferenceDerivative[Derivative[4], allocation, "DifferenceOrder" -> "Pseudospectral"]["DifferentiationMatrix"]
+NDSolve`FiniteDifferenceDerivative[Derivative[4], collocation, "DifferenceOrder" -> "Pseudospectral"]["DifferentiationMatrix"]
 ```
-we obtain the differentiation matrix of the fourth-order derivative within the Pseudospectral method.
+we obtain the differentiation matrix of the fourth-order derivative within the Pseudospectral method. Here, the `colloation` should be the Gauss-Lobatto collocation.
 
 To obtain expansion coefficients ($a_i$), we employ the Fast Fourier Transform (FFT) method. These coefficients are then used to reconstruct the function using Chebyshev polynomials $T^i(x)$.
 
