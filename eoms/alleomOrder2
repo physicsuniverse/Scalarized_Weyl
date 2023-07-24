@@ -1,0 +1,133 @@
+{-((-1 + z)*z^2*U2[z]*Derivative[1][U1][z]^2) + 
+  U1[z]^2*(4 + (4 - 3*z)*z*Derivative[1][U2][z] + 
+    4*U2[z]*(-1 + (-1 + z)*z^2*Derivative[1][\[CurlyPhi]][z]^2)) + 
+  z^2*U1[z]*((-1 + z)*Derivative[1][U1][z]*Derivative[1][U2][z] + 
+    U2[z]*(3*Derivative[1][U1][z] + 2*(-1 + z)*Derivative[2][U1][z])), 
+ -(U1[z]*(-18*(-1 + z)^3*z^5*\[Alpha]*U2[z]^3*Derivative[1][U1][z]^3*
+     (3*(-1 + z)*z^2*\[Alpha]*U2[z]*Derivative[1][F][\[CurlyPhi][z]]^2 + 
+      2*F[\[CurlyPhi][z]]*(-1 + 6*(-1 + z)*z^3*\[Alpha]*U2[z]*
+         Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][\[CurlyPhi]][z])) + 
+    3*(-1 + z)*z^4*\[Alpha]*U1[z]*U2[z]*Derivative[1][U1][z]^2*
+     (6*(-1 + z)^2*z*U2[z]^2*Derivative[1][F][\[CurlyPhi][z]]*
+       (-9*(-1 + z)*z^2*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+         Derivative[1][U2][z] - 6*Derivative[1][\[CurlyPhi]][z] + 
+        2*z^2*\[Alpha]*U2[z]*Derivative[1][F][\[CurlyPhi][z]]*
+         (-9 + 7*(-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2)) + 
+      F[\[CurlyPhi][z]]*(-15*(-1 + z)^2*z^2*Derivative[1][U2][z]^2 + 
+        96*(-1 + z)^2*z^3*\[Alpha]*U2[z]^3*Derivative[1][F][\[CurlyPhi][z]]*
+         Derivative[1][\[CurlyPhi]][z]*(-2 + (-1 + z)*z^2*
+           Derivative[1][\[CurlyPhi]][z]^2) - U2[z]^2*(38 - 68*z + 117*z^2 + 
+          72*(-1 + z)^3*z^4*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+           Derivative[1][U2][z]*Derivative[1][\[CurlyPhi]][z] + 
+          32*(-1 + z)^2*z^2*Derivative[1][\[CurlyPhi]][z]^2) + 
+        2*(-1 + z)*U2[z]*(8 + (14 - 33*z)*z*Derivative[1][U2][z] + 
+          4*(-1 + z)*z^2*Derivative[2][U2][z]))) + 
+    U1[z]^3*(-45*(-1 + z)^2*z^4*\[Alpha]*F[\[CurlyPhi][z]]*
+       Derivative[1][U2][z]^2*(-4 + z*(-4 + 3*z)*Derivative[1][U2][z]) + 
+      16*(-1 + z)*z^7*\[Alpha]^2*U2[z]^4*Derivative[1][F][\[CurlyPhi][z]]*
+       (-3 + (-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2)^2*
+       (8*(-2 + 3*z)*F[\[CurlyPhi][z]]*Derivative[1][\[CurlyPhi]][z] + 
+        Derivative[1][F][\[CurlyPhi][z]]*(-3 + 5*(-1 + z)*z*
+           Derivative[1][\[CurlyPhi]][z]^2)) + 12*z^2*\[Alpha]*U2[z]^3*
+       (F[\[CurlyPhi][z]]*(4 + 48*z - 87*z^2 + 
+          84*z^2*Derivative[1][\[CurlyPhi]][z]^2 - 
+          180*z^3*Derivative[1][\[CurlyPhi]][z]^2 + 
+          57*z^4*Derivative[1][\[CurlyPhi]][z]^2 + 
+          39*z^5*Derivative[1][\[CurlyPhi]][z]^2 + 
+          18*z^4*Derivative[1][\[CurlyPhi]][z]^4 - 
+          54*z^5*Derivative[1][\[CurlyPhi]][z]^4 + 
+          54*z^6*Derivative[1][\[CurlyPhi]][z]^4 - 
+          18*z^7*Derivative[1][\[CurlyPhi]][z]^4 + 8*(-1 + z)^2*z^5*\[Alpha]*
+           Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][U2][z]*
+           Derivative[1][\[CurlyPhi]][z]*(-24 + 45*z - 2*z*(4 - 13*z + 9*z^2)*
+             Derivative[1][\[CurlyPhi]][z]^2 + (-1 + z)^2*z^3*
+             Derivative[1][\[CurlyPhi]][z]^4)) - 2*(-1 + z)*z*
+         (Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][\[CurlyPhi]][z]*
+           (12 + 6*z - 15*z^2 + z^2*(22 - 39*z + 17*z^2)*
+             Derivative[1][\[CurlyPhi]][z]^2) + (-1 + z)*z^4*\[Alpha]*
+           Derivative[1][F][\[CurlyPhi][z]]^2*Derivative[1][U2][z]*
+           (27 - 42*(-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2 + 
+            11*(-1 + z)^2*z^2*Derivative[1][\[CurlyPhi]][z]^4) + 
+          2*(-1 + z)*z^2*Derivative[1][\[CurlyPhi]][z]^2*
+           (-3 + (-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2)*
+           Derivative[2][F][\[CurlyPhi][z]])) + 6*(-1 + z)*U2[z]*
+       (-6 + 6*(-1 + z)*z*Derivative[1][U2][z] - 9*(-1 + z)^3*z^7*\[Alpha]^2*
+         Derivative[1][F][\[CurlyPhi][z]]^2*Derivative[1][U2][z]^3 + 
+        z^2*\[Alpha]*F[\[CurlyPhi][z]]*(36*(-1 + z)^3*z^6*\[Alpha]*
+           Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][U2][z]^3*
+           Derivative[1][\[CurlyPhi]][z] + 3*z^2*Derivative[1][U2][z]^2*
+           (-7 + 16*z - 6*z^2 + 10*(-1 + z)^2*z^2*Derivative[1][\[CurlyPhi]][
+               z]^2) - 16*(2 + (-1 + z)*z^2*Derivative[2][U2][z]) + 
+          z*Derivative[1][U2][z]*(-92 + 120*z + 3*z^2*(14 - 25*z + 11*z^2)*
+             Derivative[2][U2][z]))) - 3*U2[z]^2*
+       (-12*(-1 + z)*(1 + z^2*Derivative[1][\[CurlyPhi]][z]^2 - 
+          z^3*Derivative[1][\[CurlyPhi]][z]^2 + (-1 + z)^2*z^7*\[Alpha]^2*
+           Derivative[1][F][\[CurlyPhi][z]]^2*Derivative[1][U2][z]^2*
+           (-9 + 7*(-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2) + 
+          2*z^5*\[Alpha]*Derivative[1][U2][z]*Derivative[1][\[CurlyPhi]][z]^2*
+           Derivative[2][F][\[CurlyPhi][z]] - 4*z^6*\[Alpha]*
+           Derivative[1][U2][z]*Derivative[1][\[CurlyPhi]][z]^2*
+           Derivative[2][F][\[CurlyPhi][z]] + 2*z^7*\[Alpha]*
+           Derivative[1][U2][z]*Derivative[1][\[CurlyPhi]][z]^2*
+           Derivative[2][F][\[CurlyPhi][z]] + (-1 + z)*z^3*\[Alpha]*
+           Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][\[CurlyPhi]][z]*
+           (-8 + z*(-14 + 23*z)*Derivative[1][U2][z] + 4*(-1 + z)*z^2*
+             Derivative[2][U2][z])) + z^2*\[Alpha]*F[\[CurlyPhi][z]]*
+         (96*(-1 + z)^3*z^5*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+           Derivative[1][U2][z]^2*Derivative[1][\[CurlyPhi]][z]*
+           (2 - 6*z + (-1 + z)*z^2*Derivative[1][\[CurlyPhi]][z]^2) + 
+          z*Derivative[1][U2][z]*(136 - 528*z + 600*z^2 - 243*z^3 - 
+            8*(-1 + z)^2*z^2*(-11 + 24*z)*Derivative[1][\[CurlyPhi]][z]^2) + 
+          2*(40 + 64*z - 174*z^2 + z^2*(68 - 272*z + 333*z^2 - 129*z^3)*
+             Derivative[2][U2][z] + 8*(-1 + z)^2*z^2*
+             Derivative[1][\[CurlyPhi]][z]^2*(9 + 2*(-1 + z)*z^2*
+               Derivative[2][U2][z]) - 2*(-1 + z)^2*z^3*(-2 + 3*z)*
+             Derivative[3][U2][z])))) - 3*z^3*\[Alpha]*U1[z]^2*
+     (2*(-1 + z)^2*z*U2[z]^2*Derivative[1][U1][z]*
+       (3*(-1 + z)*z*Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][U2][z]*
+         (9*(-1 + z)*z^2*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+           Derivative[1][U2][z] - 2*Derivative[1][\[CurlyPhi]][z]) + 
+        4*z^3*\[Alpha]*U2[z]^2*Derivative[1][F][\[CurlyPhi][z]]^2*
+         (27 - 42*(-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2 + 
+          11*(-1 + z)^2*z^2*Derivative[1][\[CurlyPhi]][z]^4) - 
+        2*U2[z]*(6*(-1 + z)*z^3*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]^2*
+           Derivative[1][U2][z]*(-9 + 7*(-1 + z)*z*Derivative[1][\[CurlyPhi]][
+               z]^2) + Derivative[1][F][\[CurlyPhi][z]]*
+           Derivative[1][\[CurlyPhi]][z]*(3*(-6 + z) + 10*(-1 + z)*z^2*
+             Derivative[1][\[CurlyPhi]][z]^2) + 6*(-1 + z)*z*
+           Derivative[1][\[CurlyPhi]][z]^2*Derivative[2][F][
+            \[CurlyPhi][z]])) + F[\[CurlyPhi][z]]*
+       (-15*(-1 + z)^3*z^3*Derivative[1][U1][z]*Derivative[1][U2][z]^3 + 
+        32*(-1 + z)^2*z^4*\[Alpha]*U2[z]^4*Derivative[1][F][\[CurlyPhi][z]]*
+         Derivative[1][U1][z]*Derivative[1][\[CurlyPhi]][z]*
+         (24 - 27*z + 2*z*(4 - 7*z + 3*z^2)*Derivative[1][\[CurlyPhi]][z]^2 + 
+          (-1 + z)^2*z^3*Derivative[1][\[CurlyPhi]][z]^4) + 
+        3*(-1 + z)^2*z*U2[z]*Derivative[1][U1][z]*Derivative[1][U2][z]*
+         (32 + (32 - 33*z)*z*Derivative[1][U2][z] + 6*(-1 + z)*z^2*
+           Derivative[2][U2][z]) - (-1 + z)*U2[z]^2*Derivative[1][U1][z]*
+         (72*(-1 + z)^3*z^5*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+           Derivative[1][U2][z]^2*Derivative[1][\[CurlyPhi]][z] - 
+          3*z*Derivative[1][U2][z]*(12 + 40*z - 51*z^2 + 16*(-1 + z)^2*z^2*
+             Derivative[1][\[CurlyPhi]][z]^2) - 6*z^2*(6 - 13*z + 7*z^2)*
+           Derivative[2][U2][z] + 4*(6 - 54*z + (-1 + z)^2*z^3*
+             Derivative[3][U2][z])) - U2[z]^3*(Derivative[1][U1][z]*
+           (24 - 312*z + 348*z^2 + 45*z^3 + 192*(-1 + z)^3*z^4*(-2 + 3*z)*
+             \[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][U2][z]*
+             Derivative[1][\[CurlyPhi]][z] + 8*(-1 + z)^2*z^2*(-25 + 3*z)*
+             Derivative[1][\[CurlyPhi]][z]^2) + 8*(-1 + z)^3*z^3*
+           Derivative[4][U1][z]))))), 
+ 9*(-1 + z)^2*z^2*\[Alpha]*U2[z]^2*Derivative[1][F][\[CurlyPhi][z]]*
+   Derivative[1][U1][z]^2 - 6*(-1 + z)*U1[z]*U2[z]*Derivative[1][U1][z]*
+   (-3*(-1 + z)*z^2*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+     Derivative[1][U2][z] - Derivative[1][\[CurlyPhi]][z] + 
+    2*z^2*\[Alpha]*U2[z]*Derivative[1][F][\[CurlyPhi][z]]*
+     (-3 + (-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2)) + 
+  U1[z]^2*(3*(-1 + z)*Derivative[1][U2][z]*
+     (3*(-1 + z)*z^2*\[Alpha]*Derivative[1][F][\[CurlyPhi][z]]*
+       Derivative[1][U2][z] + 2*Derivative[1][\[CurlyPhi]][z]) + 
+    4*z^2*\[Alpha]*U2[z]^2*Derivative[1][F][\[CurlyPhi][z]]*
+     (-3 + (-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2)^2 - 
+    12*U2[z]*(-Derivative[1][\[CurlyPhi]][z] + (-1 + z)*z^2*\[Alpha]*
+       Derivative[1][F][\[CurlyPhi][z]]*Derivative[1][U2][z]*
+       (-3 + (-1 + z)*z*Derivative[1][\[CurlyPhi]][z]^2) + 
+      Derivative[2][\[CurlyPhi]][z] - z*Derivative[2][\[CurlyPhi]][z]))}
