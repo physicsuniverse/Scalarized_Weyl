@@ -14,7 +14,7 @@ This repository contains the code and results corresponding to the appendix of p
 ## Pre-installation<a name="pre-installation"></a>
 
 Before using the code in this repository, please ensure that you have the following software and packages installed:
-- [Mathematica](https://www.wolfram.com/mathematica/): We utilize the free Wolfram Kernel to run the code. You can also run the code with Mathematica notebook, just copy the code inside the .ipynb file, and things will work just like they are in the .ipynb files.
+- [Mathematica](https://www.wolfram.com/mathematica/): We utilize the free Wolfram Kernel to run the code. You can also run the code with Mathematica notebook, just copy the code inside the .ipynb file, and things will work very much like in the .ipynb files.
 - [Jupyter Notebook](https://jupyter.org/): This acts as the front end for executing the code.
 - [WolframLanguageForJupyter](https://github.com/WolframResearch/WolframLanguageForJupyter): Install this package to enable the integration of the Wolfram Language with Jupyter Notebook.
 
