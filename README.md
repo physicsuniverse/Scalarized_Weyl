@@ -37,7 +37,7 @@ To bypass this limitation, researchers propose violating certain assumptions of 
 
 In this study, we focus on a higher-derivative gravity theory coupled to a scalar field and explore its behavior. We argue against simplifying the analysis by reducing the governing equations to second-order form, instead choosing to directly solve the challenging fourth-order differential equations using numerical methods.
 
-The actions is,
+The action is,
 
 $$S=\frac{1}{16\pi} \int d^4 x \sqrt{-g} \left[ R-2 \nabla_\mu \varphi\nabla^\mu \varphi-\alpha F(\varphi)C^2 \right]$$
 
