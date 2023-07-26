@@ -75,7 +75,14 @@ Moreover, to validate the solutions obtained from the fourth-order equations, we
 If you find this work or the code in this repository useful for your research, please consider citing our paper:
 
 ```tex
-Author(s). "Title of the Paper", arXiv:xxxxxx.
+@misc{wang2023scalarized,
+      title={Scalarized Black Holes: Extending From and Beyond the Schwarzschild Solution}, 
+      author={Xi-Jing Wang and Guoyang Fu and Peng Liu and Xiao-Mei Kuang and Bin Wang and Jian-Pin Wu},
+      year={2023},
+      eprint={2307.13440},
+      archivePrefix={arXiv},
+      primaryClass={gr-qc}
+}
 ```
 
 We appreciate your interest and hope that this repository proves helpful for your study. If you have any questions or encounter any issues, please don't hesitate to reach out to us.
