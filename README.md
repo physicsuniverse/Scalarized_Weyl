@@ -1,6 +1,6 @@
 # Solutions of 4th-Order Equations in Scalarized Black Hole Systems in Higher Derivative Gravity
 
-This repository contains the code and results corresponding to the appendix of the paper titled [Scalarized Black Holes: Extending From and Beyond the Schwarzschild Solution](https://arxiv.org/abs/xxxxxx). In this paper, we explore the scalarized black hole systems within the framework of higher derivative gravity by directly solving the fourth-order equations of motion.
+This repository contains the code and results corresponding to the appendix of the paper titled [Scalarized Black Holes: Extending From and Beyond the Schwarzschild Solution](https://arxiv.org/abs/2307.13440). In this paper, we explore the scalarized black hole systems within the framework of higher derivative gravity by directly solving the fourth-order equations of motion.
 
 ## Table of Contents
 - [Solutions of 4th-Order Equations in Scalarized Black Hole Systems in Higher Derivative Gravity](#solutions-of-4th-order-equations-in-scalarized-black-hole-systems-in-higher-derivative-gravity)
